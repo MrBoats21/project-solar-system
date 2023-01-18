@@ -1,3 +1,19 @@
-.App {
-  background-color: black;
+.card {
+  background-color: gray;
+}
+
+.solar-system {
+  background-image: url('https://i.pinimg.com/originals/96/ff/a0/96ffa0bc42162e99de32af608f82665c.jpg');
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+img {
+  width: 200px;
+}
+
+.planet-card h3 {
+  display: flex;
+  justify-content: center;
 }
